@@ -139,8 +139,6 @@ ex ()
 }
 
 # Source for dotbare (dotfile manager)
-export DOTBARE_DIR="$HOME/dotfiles"
-export DOTBARE_TREE="$HOME"
 source ~/.dotbare/dotbare.plugin.bash
 alias configd='/usr/bin/git --git-dir=/home/not_james_bond/dotfiles/ --work-tree=/home/not_james_bond'
 
