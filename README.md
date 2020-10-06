@@ -6,6 +6,10 @@
 <img src="https://github.com/Not-James-Bond/dotfiles/blob/master/.config/custom-dot/images/Screenshot_20201007_024600.png" alt="img" width="900px">
 </p>
 
+<p align="center">
+<img src="https://github.com/Not-James-Bond/dotfiles/blob/master/.config/custom-dot/images/Screenshot_20201007_030602.png" alt="img" width="900px">
+</p>
+
 This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/elenapan/dotfiles/tree/master/config/awesome) , [Eredarion](https://github.com/Eredarion/dotfiles/tree/master/.config/awesome) , [hisbaan](https://github.com/hisbaan/dotfiles-laptop) and [JavaCafe01](https://github.com/JavaCafe01/dotfiles).
 
 ## System Info
@@ -26,6 +30,19 @@ This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/
 
 + Noto Sans
 + JetBrains Mono
+
+### Softwares
+
++ Zathura
++ mpv
++ mpd+ncmpcpp
++ qbit
++ optimus-manager
++ bottom
++ tldr
++ delta 
++ exa
++ tree
 
 ### Migrate to my dots
 
