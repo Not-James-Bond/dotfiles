@@ -138,22 +138,30 @@ ex ()
   fi
 }
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/not_james_bond/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/not_james_bond/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/not_james_bond/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/not_james_bond/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
-
+# Source for dotbare (dotfile manager)
+export DOTBARE_DIR="$HOME/dotfiles"
+export DOTBARE_TREE="$HOME"
 source ~/.dotbare/dotbare.plugin.bash
 alias configd='/usr/bin/git --git-dir=/home/not_james_bond/dotfiles/ --work-tree=/home/not_james_bond'
+
+# Set PATH so it includes user's private bin directories
+PATH="${HOME}/.bin:${HOME}/.local/bin:${PATH}"
+
+# Useful aliases
+alias c='clear'
+alias ..='cd ..'
+alias v="nvim"
+alias ls='exa --icons'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+alias cat='bat'
+#alias xwin='Xephyr -br -ac -noreset -screen 1400x800 :1'
+alias xdisp='DISPLAY=:1 '
+alias fetish="info='n os wm sh cpu mem kern term pkgs col n' accent=4 separator='  ' fet.sh"
+alias grep='grep --color=auto'
+
+#bottom
+#tldr
+#delta maybe
