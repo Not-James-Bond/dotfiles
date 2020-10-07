@@ -10,7 +10,7 @@
 <img src="https://github.com/Not-James-Bond/dotfiles/blob/master/.config/custom-dot/images/Screenshot_20201007_030602.png" alt="img" width="900px">
 </p>
 
-This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/elenapan/dotfiles/tree/master/config/awesome) , [Eredarion](https://github.com/Eredarion/dotfiles/tree/master/.config/awesome) , [hisbaan](https://github.com/hisbaan/dotfiles-laptop) and [JavaCafe01](https://github.com/JavaCafe01/dotfiles).
+This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/elenapan/dotfiles/tree/master/config/awesome) , [Eredarion](https://github.com/Eredarion/dotfiles/tree/master/.config/awesome) , [hisbaan](https://github.com/hisbaan/dotfiles-laptop/tree/master/.config) and [JavaCafe01](https://github.com/JavaCafe01/dotfiles/tree/master/.config).
 
 ## System Info
 
@@ -18,7 +18,7 @@ This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/
 + **WM**: KWin
 + **DE**: Plasma 5.19
 + **Shell**: bash
-+ **Terminal**: [konsole](https://github.com/KDE/konsole)/[yasuke](https://github.com/KDE/yakuake)
++ **Terminal**: [konsole](https://github.com/KDE/konsole)/[yakuake](https://github.com/KDE/yakuake)
 + **Editor**: nvim/code
 + **File Manager**: dolphin
 + **Browser**: firefox
