@@ -148,7 +148,8 @@ PATH="${HOME}/.bin:${HOME}/.local/bin:${PATH}"
 # Useful aliases
 alias c='clear'
 alias ..='cd ..'
-alias v="nvim"
+alias vs='code'
+alias v="vim"
 alias ls='exa --icons'
 alias l='ls -l'
 alias la='ls -a'
@@ -163,3 +164,9 @@ alias grep='grep --color=auto'
 #bottom
 #tldr
 #delta maybe
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-toolsexport PATH=/usr/java//usr/lib/jvm/java-14-openjdk/bin:/home/not_james_bond/.bin:/home/not_james_bond/.local/bin:/home/not_james_bond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/not_james_bond/.dotbare:/home/not_james_bond/Android/Sdk/emulator:/home/not_james_bond/Android/Sdk/tools:/home/not_james_bond/Android/Sdk/tools/bin:/home/not_james_bond/Android/Sdk/platform-tools
