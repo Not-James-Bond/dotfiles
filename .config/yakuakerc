@@ -1,4 +1,14 @@
-[Favorite Profiles]
-Favorites=
 [Appearance]
 Blur=true
+Skin=materia-otto
+SkinInstalledWithKns=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Blur.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+KeepOpen=false
