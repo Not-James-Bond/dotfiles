@@ -25,6 +25,7 @@ This rice was heavily ~~stolen from~~ inspired by [elenapan](https://github.com/
 + **Color Scheme**: custom(aritim-dark)
 + **GTK Theme**: [Aritim-Dark-GTK](https://github.com/Ki113R/Aritim-Dark-GTK)
 + **Wallpaper**: [mikael-gustafsson](https://mikaelgustafsson.artstation.com/)
++ **Spicetify**: [Nord](https://github.com/Tetrax-10/Nord-Spotify)
 
 ### Fonts
 
