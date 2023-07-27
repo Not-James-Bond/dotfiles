@@ -32,12 +32,14 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias yeet='yay -Rs'
 alias cat='bat'
+alias yeet='yay -Rs'
 #alias xwin='Xephyr -br -ac -noreset -screen 1400x800 :1'
 alias xdisp='DISPLAY=:1 '
 alias fetish="info='n os wm sh cpu mem kern term pkgs col n' accent=4 separator='  ' fet.sh"
 alias grep='grep --color=auto'
+alias p81-start='sudo systemctl restart perimeter81helper.service'
+alias p81-stop='sudo systemctl stop perimeter81helper.service; killall perimeter81'
 
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
@@ -46,3 +48,4 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias ssh-start='eval "$(ssh-agent -s)"'
 alias ssh-list='ssh-add -l'
+source ~/powerlevel10k/powerlevel10k.zsh-theme
